@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f9f4ef;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #8b7765;
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            color: #8b7765;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #8b7765;
+        }
+        .poetry, .reviews, .ebooks {
+            margin-bottom: 40px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 150px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #8b7765;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Webpage</h1>
+        <p>Your space for poetry, book reviews, and e-books</p>
+    </header>
+
+    <nav>
+        <a href="#poetry">Poetry</a>
+        <a href="#reviews">Book Reviews</a>
+        <a href="#ebooks">E-books</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="poetry" class="poetry">
+        <h2>My Poetry</h2>
+        <p>Here is where I share my latest poems, crafted with care and inspiration.</p>
+        <p>...</p> <!-- Your poetry content goes here -->
+    </section>
+
+    <section id="reviews" class="reviews">
+        <h2>Book Reviews</h2>
+        <p>Explore my reviews of various books, offering insights and recommendations.</p>
+        <p>...</p> <!-- Your book review content goes here -->
+    </section>
+
+    <section id="ebooks" class="ebooks">
+        <h2>Purchase E-books</h2>
+        <p>Browse and purchase my collection of e-books, available for download.</p>
+        <p>...</p> <!-- Your e-book purchase content goes here -->
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Photo Gallery</h2>
+        <div>
+            <img src="image1.jpg" alt="Gallery Image 1">
+            <img src="image2.jpg" alt="Gallery Image 2">
+            <img src="image3.jpg" alt="Gallery Image 3">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>Connect with me:</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <!-- Add your actual social media links -->
+        </div>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
